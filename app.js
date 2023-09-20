@@ -30,10 +30,10 @@ app.post("/",function(req,res){
     };
     const JsonData=JSON.stringify((data));//it makes the data into a string type which would be easier to send
 
-    const url="https://us21.api.mailchimp.com/3.0/lists/4a9fff17b1";
+    const url="";
     const options={
         method: "POST",
-        auth: "Shankar:5271ad7e5c6b47b672ff6c2efe3b1ea6-us21"
+        auth: ""
 
     }
     //https.get is used to get the data from the third party api.
@@ -70,5 +70,3 @@ app.listen(3000,function(){
     console.log("Your server is running in port 3000");
 })
 
-//api key=5271ad7e5c6b47b672ff6c2efe3b1ea6-us21
-//audience id=4a9fff17b1
